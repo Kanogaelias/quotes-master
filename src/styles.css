@@ -1,2 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+    background-color: #333;
+}
+.jumbotron{
+    text-align: center;
+    background-color: aqua;
+    font-family: 'Notable', sans-serif;
+
+   }
+
+  .items{
+       background-color: rgba(255, 255, 255, 0.9);
+       text-size-adjust: 20px;
+  }
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  li{
+    margin: 25px;
+  }
+  #listed{
+      text-size-adjust: 10%;
+  }
+  
