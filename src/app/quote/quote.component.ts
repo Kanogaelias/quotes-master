@@ -10,8 +10,13 @@ export class QuoteComponent implements OnInit {
     new Quote(1,"Jifanye mtundu nikupe mkundu.","Wahenga wa Dandora","Elias",0,0,new Date(2010,8,19)),
     new Quote(2,"Ndefu ndiyo tamu, fupi zinatekenya","wahenga wa Dar","Hessy",0,0,new Date(2012,11,19)),
     new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2013,6,22)),
-    new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2018,9,22)),
-    new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2018,9,22)),
+    new Quote(4," If you cannot do great things, do small things in a great way.","Napoleon Hill","Tugi",0,0,new Date(2014,9,20)),
+    new Quote(5,"Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.","Marcel","dre",0,0,new Date(2015,9,21)),
+    new Quote(6,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
+    new Quote(7,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
+    new Quote(8,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
+    new Quote(9,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
+    new Quote(10,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
         ];
   toggleDetails(index){
     this.quotes[index].showAuthor=!this.quotes[index].showAuthor;
