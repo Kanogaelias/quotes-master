@@ -13,10 +13,10 @@ export class QuoteComponent implements OnInit {
     new Quote(4," If you cannot do great things, do small things in a great way.","Napoleon Hill","Tugi",0,0,new Date(2014,9,20)),
     new Quote(5,"Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.","Marcel","dre",0,0,new Date(2015,9,21)),
     new Quote(6,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2016,9,21)),
-    new Quote(7,"Always remember that you are absolutely unique. Just like everyone else.","Clinton","Okerio",0,0,new Date(2018,9,21)),
-    new Quote(8,"You are closer to death now than then"," Cynthia","Muriithi",0,0,new Date(2018,9,21)),
-    new Quote(9,"Shave,like face,like head.","Principal","FJ",0,0,new Date(2018,9,21)),
-    new Quote(10,"The supreme art of war is to subdue the enemy without fighting.","Sun","Tzu",0,0,new Date(2018,9,21)),
+    new Quote(7,"Always remember that you are absolutely unique. Just like everyone else.","Clinton","Okerio",0,0,new Date(2017,9,21)),
+    new Quote(8,"You are closer to death now than then"," Cynthia","Muriithi",0,0,new Date(2017,12,21)),
+    new Quote(9,"Shave,like face,like head.","Principal","FJ",0,0,new Date(2018,6,21)),
+    new Quote(10,"Wise men speak because they have something to say; Fools because they have to say something.","Plato","Arizona",0,0,new Date(2018,10,21)),
         ];
   toggleDetails(index){
     this.quotes[index].showAuthor=!this.quotes[index].showAuthor;
