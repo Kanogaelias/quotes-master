@@ -7,9 +7,11 @@ import {Quote} from '../quote'
 })
 export class QuoteComponent implements OnInit {
   quotes =[
-    new Quote(1,"I'm not a follower. I'm a leader. And anyone who speaks their mind is always criticised.","Tyler the Creator","Denis",0,0,new Date(2018,9,22)),
-    new Quote(2,"All y'all so worried about being likable but only a few are concerned about being great!!!","Kanye West","Kitur",0,0,new Date(2018,9,22)),
-    new Quote(2,"I am a god.","Kanye West","Sammy",0,0,new Date(2018,9,22)),
+    new Quote(1,"Jifanye mtundu nikupe mkundu.","Wahenga wa Dandora","Elias",0,0,new Date(2010,8,19)),
+    new Quote(2,"Ndefu ndiyo tamu, fupi zinatekenya","wahenga wa Dar","Hessy",0,0,new Date(2012,11,19)),
+    new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2013,6,22)),
+    new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2018,9,22)),
+    new Quote(3,"Panua paja mkwaju waja","leso ya bibi","binti shoka",0,0,new Date(2018,9,22)),
         ];
   toggleDetails(index){
     this.quotes[index].showAuthor=!this.quotes[index].showAuthor;
