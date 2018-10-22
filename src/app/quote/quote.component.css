@@ -1,0 +1,27 @@
+.jumbotron{
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    font-family: 'Luckiest Guy', cursive;
+   }
+   .container-fluid{
+    background-image: url("/assets/");
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+   }
+  .items{
+       background-color: rgba(255,255,255,0.9);
+  }
+  ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  li{
+    margin: 25px;
+  }
+  button{
+    margin-bottom: 5px;
+  }
+  #listed{
+    font-family: 'Courgette', cursive;
+  }

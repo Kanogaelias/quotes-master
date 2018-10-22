@@ -1,0 +1,16 @@
+<div class="container-fluid">
+<div class="jumbotron">
+    <h1 id="title">Quotes</h1>
+</div>
+  
+  <ul>
+    <div *ngFor="let quote of quotes;let i=index" class="items">
+      <li id="listed">"{{quote.name}}" -<em><strong>Posted {{quote.notedDate|dateCount}} day(s) ago.</strong></em></li>
+      <button (click)='toggleDetails(i)' class="btn btn-info btn-xs"><i class="fa fa-sort"></i></button>&nbsp;
+      <button (click)='upvote(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>{{quote.upvotes}}</button>&nbsp;&nbsp;
+      <button (click)='downvote(i)' class="btn btn-danger btn-xs"><i class="fa fa-thumbs-o-down"></i>{{quote.downvotes}}</button>
+    <app-quote-details *ngIf="quote.showAuthor" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+</div>
+  </ul>
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>

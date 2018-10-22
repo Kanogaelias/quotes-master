@@ -1,0 +1,17 @@
+<div class="container">
+    <form (ngSubmit)="submitQuote()" #quoteForm='ngForm'>
+  <div class="form-group">
+    <label for="name">Enter your Quote here:</label>
+    <textarea class="form-control" id="name" rows="4" [(ngModel)]="newQuote.name" name="name"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="author">Who said that?:</label>
+    <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="name">
+  </div>
+  <div class="form-group">
+    <label for="fan">Written by:</label>
+      <input type="text" class="form-control" id="fan" [(ngModel)]="newQuote.fan" name="name">
+  </div>
+  <button type="submit" id="go">Add quote</button>
+    </form>
+   </div>

@@ -1,0 +1,13 @@
+form{
+    width: 50%;
+    color:white;
+    text-align: justify;
+   }
+   #go{
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+  }
+  #go:hover{
+    color: white;
+  }

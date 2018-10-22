@@ -1,0 +1,12 @@
+.delete{
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 12px;
+  }
+  .delete:hover{
+    background-color: red;
+    color: white
+  }
+  .details{
+    font-family: 'Jua', sans-serif;
+  }
